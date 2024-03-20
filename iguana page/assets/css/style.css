@@ -1,4 +1,98 @@
 body{
     background-color: black;
     color: white;
+    font-family: "Raleway";
+}
+.header{
+    height: 60px;
+    padding-bottom: 2%;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 450;
+    text-align: center;
+}
+.imagen{
+    height: 600px; 
+    align-items: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.imagen img{
+    height: 100%;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+.descripcion img{
+    max-width: 400px;
+}
+
+.descripcion p{
+    width: 60%;
+    text-align: center;
+    padding: 10%;
+
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.galeria img{
+    max-width: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: #1E1A13;
+}
+
+.caracteristicas i{
+    width: 50px;
+    height: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: #1E1A13;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+
+.iconos i{
+    font-size: 50px;
+}
+
+.carac{
+    display: flex;
+    flex-direction: row;
 }
